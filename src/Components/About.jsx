@@ -3,7 +3,7 @@ import profile from '../Components/profile.jpeg'
 const About = () => {
   return (
     <>
-     <div className='container about-container'>
+     <div className='container about-container mb-5'>
      <div className='about-inner'>
        <div className='left'>
         <h2>Meet <span className='name'>Noman</span></h2>

@@ -93,19 +93,77 @@
   transition: all .3s ease-in-out 0s;
 }
 
-.socialLink {
-  margin-left: 15px;
-}
+
 
 .fa-github {
   color: black;
-  border-radius: 360px;
+    border-radius: 4.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.5rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    background-color: white;
+    transition: .2s ease-in;
 }
 
 .fa-envelope {
-  color: #ea4335;
+  color: red;
+    border-radius: 4.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.5rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    background-color: white;
+    transition: .2s ease-in;
 
 }
+
+.fa-linkedin{
+  border-radius: 4.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.5rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  background-color: white;
+  transition: .2s ease-in;
+}
+
+
+.fa-facebook{
+
+  border-radius: 4.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.5rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  background-color: white;
+  transition: .2s ease-in;
+}
+
 
 .home_container{
   min-height:85vh;
@@ -138,14 +196,15 @@
 
 .about-para{
   margin-top: 50px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  
   font-size: 20px;
   text-transform: capitalize;
   line-height: 35px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=DynaPuff&family=Lobster+Two&family=Macondo&family=Open+Sans:wght@500&family=Poppins:wght@500;600;700&family=Roboto:ital,wght@0,300;1,300&family=Rubik+Dirt&family=Work+Sans:wght@400;500&display=swap');
 .right{
   max-width: 430px;
 }
@@ -156,4 +215,28 @@
 
 .name{
   color: purple;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-div{
+  margin-top: 20px;
+}
+
+.productBtn{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer-background{
+  background-color: #171c28;
+}
+
+.bg-header{
+  background-color: #171c28;
+
 }
