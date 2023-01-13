@@ -27,9 +27,9 @@ export default function ButtonAppBar() {
 
     return (
         <>
-            <AppBar elevation={0} position='static' sx={{backgroundColor:"red"}} >
+            <AppBar elevation={0} position='static' sx={{backgroundColor:"#171c28"}} >
                 <Toolbar >
-                     <Typography variant='h3' sx={{color:"black"}}>Noman</Typography>
+                     <Typography variant='h3' sx={{color:"#fff"}}>Noman</Typography>
                     {/* <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/logo_new_6616946a-089b-4ed7-9d17-17ffeb96abda_small.png?v=1671016750" sx={{width:{md:"120px",xs:"80px"}}} alt="Logo" width={{md:"65px",xs:"40px"}} marginLeft={{md:"80px"}}  onClick={() => navigate("/")} /> */}
                     {
                         isMatch ? (
@@ -44,12 +44,12 @@ export default function ButtonAppBar() {
                                    
                                
 
-                                    <Tab label="Home " sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/" />
-                                    <Tab label="About" sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}}  component={Link} to="/about" />
-                                    <Tab label="Portfolio " sx={{color:"black",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Roboto"}} component={Link} to="/portfolio" />
+                                    <Tab label="Home " sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/" />
+                                    <Tab label="About" sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Roboto"}}  component={Link} to="/about" />
+                                    <Tab label="Portfolio " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Roboto"}} component={Link} to="/portfolio" />
 
-                                    <Tab label="Experience " sx={{color:"black",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Roboto"}} component={Link} to="/experience" />
-                                    <Tab label="Contact Us "  sx={{color:"black",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/contact" />
+                                    <Tab label="Experience " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Roboto"}} component={Link} to="/experience" />
+                                    <Tab label="Contact Us "  sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Roboto"}} component={Link} to="/contact" />
                                     {/* <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" /> */}
                                     {/* <Tab label="Cart " sx={{color:"black",fontSize:"20px"}} component={Link} to="/cartsection" /> */}
 
