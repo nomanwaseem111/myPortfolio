@@ -44,12 +44,12 @@ export default function ButtonAppBar() {
                                    
                                
 
-                                    <Tab label="Home " sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"sans-serif"}} component={Link} to="/" />
-                                    <Tab label="About" sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"sans-serif"}}  component={Link} to="/about" />
-                                    <Tab label="Portfolio " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"sans-serif"}} component={Link} to="/portfolio" />
+                                    <Tab label="Home " sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Eudoxus Sans"}} component={Link} to="/" />
+                                    <Tab label="About" sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Eudoxus Sans"}}  component={Link} to="/about" />
+                                    <Tab label="Portfolio " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Eudoxus Sans"}} component={Link} to="/portfolio" />
 
-                                    <Tab label="Experience " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"sans-serif"}} component={Link} to="/experience" />
-                                    <Tab label="Contact Us "  sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"sans-serif"}} component={Link} to="/contact" />
+                                    <Tab label="Experience " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:"Eudoxus Sans"}} component={Link} to="/experience" />
+                                    <Tab label="Contact Us "  sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:"Eudoxus Sans"}} component={Link} to="/contact" />
                                     {/* <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" /> */}
                                     {/* <Tab label="Cart " sx={{color:"black",fontSize:"20px"}} component={Link} to="/cartsection" /> */}
 

@@ -48,7 +48,7 @@ const Banner = () => {
                 variant="h2"
                 sx={{
                   fontSize: { lg: "50px", md: "50", xs: "14px" },
-                  fontFamily:{md:"Roboto",xs:"Roboto"},
+                  fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},
                   color:{md:"#fff",xs:"#fff"}
                 }}
               >
@@ -57,9 +57,9 @@ const Banner = () => {
               <Typography
                 variant="h4"
                 sx={{
-                  fontSize: { lg: "30px", md: "30px", xs: "16px" },
+                  fontSize: { lg: "26px", md: "26px", xs: "16px" },
                   mt:{xs:"10px",md:"50px"},
-                  fontFamily:{md:"Roboto",xs:"Roboto"},
+                  fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},
                   color:{md:"#fff",xs:"#fff"}
 
                 }}
