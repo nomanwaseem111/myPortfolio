@@ -6,11 +6,22 @@ import Button from "@mui/material/Button"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
 import {useNavigate } from "react-router-dom"
-import BannerImg from "../../components/banner-img.png"
+import Lottie from 'react-lottie'
+import animation from '../banner.json'
+
 const Banner = () => {
  
   const navigate = useNavigate()
 
+  const defaultOptions = {
+    loop:true,
+    autoplay:true,
+    animationData:animation,
+    rendererSettings:{
+      preserveAspectRatio:'xMidyMid slice'
+    }
+
+ };
  
   return (
     <Grid sx={{ height: { md: "auto" }}} id="banner" backgroundColor={{md:"#171c28"}}>
@@ -34,54 +45,35 @@ const Banner = () => {
               }}
             >
               <Typography
-                variant="span"
+                variant="h2"
                 sx={{
-                  fontSize: { lg: "30px", md: "20", xs: "14px" },
+                  fontSize: { lg: "50px", md: "50", xs: "14px" },
                   fontFamily:{md:"Roboto",xs:"Roboto"},
                   color:{md:"#fff",xs:"#fff"}
                 }}
               >
-                Smart Products
+                Hi all, I'm Noman 👋
               </Typography>
               <Typography
-                variant="h1"
+                variant="h4"
                 sx={{
-                  fontSize: { lg: "90px", md: "80px", xs: "40px" },
-                  fontWeight: { lg: "600", md: "300", xs: "700" },
-                  mt:{xs:"10px"},
+                  fontSize: { lg: "30px", md: "30px", xs: "16px" },
+                  mt:{xs:"10px",md:"50px"},
                   fontFamily:{md:"Roboto",xs:"Roboto"},
                   color:{md:"#fff",xs:"#fff"}
 
                 }}
               >
-                Winter Offer <br /> 2024 Collection
+                A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
               </Typography>
-              <Button
-                className="shopNow"
-                sx={{
-                  "&:hover": {
-                backgroundColor: "#fff",
-
-                color: "purple",
-                border:"none"
-              },
-                  width: { md: "180px", xs: "100px" },
-                  mt: { md: "30px", xs: "10px" },
-                  ml: { md: "10px", xs: "5px" },
-                  border: { md: "1px solid #fff", xs: "1px solid #fff" },
-                  padding: { md: "10px", xs: "10px" },
-                  color: { md: "#fff", xs: "#fff" },
-                  fontSize: { md: "20px", xs: "12px" },
-                  fontFamily:{md:"Roboto",xs:"Roboto"},
-                  backgroundColor:{md:"8e2de2"}
-                }}
-                onClick={() => navigate("/accessories")}
-
-              >
-                Shop Now
-              </Button>
+            
             </Box>
-            <Box
+
+            <Box>
+            <Lottie options={defaultOptions} height={800} width={800} />
+
+            </Box>
+            {/* <Box
               component="img"
               src={BannerImg}
 
@@ -92,7 +84,7 @@ const Banner = () => {
                 mt: { xs: "10px",md:"40px"},
 
               }}
-            />
+            /> */}
           </Stack>
         </Stack>
       </Container>
