@@ -1,6 +1,5 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 
 import Toolbar from '@mui/material/Toolbar';
 
@@ -27,9 +26,9 @@ export default function ButtonAppBar() {
 
     return (
         <>
-            <AppBar elevation={0} position='static' sx={{backgroundColor:"#171c28"}} >
+            <AppBar elevation={0} position='static' sx={{backgroundColor:{md:"#171c28",xs:'#171c28'}}} >
                 <Toolbar className='nav' >
-                     <Typography variant='h3' sx={{color:"#fff"}}>Noman</Typography>
+                     <Typography variant='h3' sx={{color:{md:"#fff",xs:"#fff"},fontSize:{md:"30px",xs:"20px"},marginLeft:{md:"150px"},cursor:{md:"pointer",xs:"pointer"}}} onClick={() => navigate("/")}>Noman</Typography>
                     {/* <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/logo_new_6616946a-089b-4ed7-9d17-17ffeb96abda_small.png?v=1671016750" sx={{width:{md:"120px",xs:"80px"}}} alt="Logo" width={{md:"65px",xs:"40px"}} marginLeft={{md:"80px"}}  onClick={() => navigate("/")} /> */}
                     {
                         isMatch ? (

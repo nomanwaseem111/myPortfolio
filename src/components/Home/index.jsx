@@ -2,16 +2,13 @@ import React from "react"
 import Stack from "@mui/material/Stack"
 import Box from "@mui/material/Box"
 import { Typography } from "@mui/material"
-import Button from "@mui/material/Button"
 import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
-import {useNavigate } from "react-router-dom"
 import Lottie from 'react-lottie'
 import animation from '../banner.json'
 
 const Banner = () => {
  
-  const navigate = useNavigate()
 
   const defaultOptions = {
     loop:true,
@@ -24,7 +21,7 @@ const Banner = () => {
  };
  
   return (
-    <Grid sx={{ height: { md: "auto" }}} id="banner" backgroundColor={{md:"#171c28"}}>
+    <Grid sx={{ height: { md: "auto" }}} id="banner" backgroundColor={{md:"#171c28",xs:"#171c28"}}>
       <Container maxWidth="xl" width={{xs:"100%"}} >
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "565px", md: "760px" }, }}>
           <Stack
@@ -47,9 +44,10 @@ const Banner = () => {
               <Typography
                 variant="h2"
                 sx={{
-                  fontSize: { lg: "50px", md: "50", xs: "14px" },
+                  fontSize: { lg: "50px", md: "50", xs: "16px" },
                   fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},
-                  color:{md:"#fff",xs:"#fff"}
+                  color:{md:"#fff",xs:"#fff"},
+                  mt:{xs:"50px",md:"0px"},
                 }}
               >
                 Hi all, I'm Noman 👋
@@ -57,8 +55,8 @@ const Banner = () => {
               <Typography
                 variant="h4"
                 sx={{
-                  fontSize: { lg: "26px", md: "26px", xs: "16px" },
-                  mt:{xs:"10px",md:"50px"},
+                  fontSize: { lg: "26px", md: "26px", xs: "14px" },
+                  mt:{xs:"20px",md:"50px"},
                   fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},
                   color:{md:"#fff",xs:"#fff"}
 
@@ -69,8 +67,8 @@ const Banner = () => {
             
             </Box>
 
-            <Box>
-            <Lottie options={defaultOptions} height={800} width={800} />
+            <Box sx={{width:{md:"1600px",xs:"350px"}}}>
+            <Lottie options={defaultOptions}   />
 
             </Box>
             {/* <Box
