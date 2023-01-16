@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
         <>
             <AppBar elevation={0} position='static' sx={{backgroundColor:{md:"#171c28",xs:'#171c28'}}} >
                 <Toolbar className='nav' >
-                     <Typography variant='h3' sx={{color:{md:"#fff",xs:"#fff"},fontSize:{md:"30px",xs:"20px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},marginLeft:{md:"35px",xs:"20px"},cursor:{md:"pointer",xs:"pointer"}}} onClick={() => navigate("/")}>Noman</Typography>
+                     <Typography variant='h3' sx={{color:{md:"#fff",xs:"#fff"},fontSize:{md:"30px",xs:"20px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},marginLeft:{md:"30px",xs:"10px"},cursor:{md:"pointer",xs:"pointer"},mt:{md:"20px",xs:"0px"}}} onClick={() => navigate("/")}>Noman</Typography>
                     {/* <Box component="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/logo_new_6616946a-089b-4ed7-9d17-17ffeb96abda_small.png?v=1671016750" sx={{width:{md:"120px",xs:"80px"}}} alt="Logo" width={{md:"65px",xs:"40px"}} marginLeft={{md:"80px"}}  onClick={() => navigate("/")} /> */}
                     {
                         isMatch ? (
@@ -43,12 +43,12 @@ export default function ButtonAppBar() {
                                    
                                
 
-                                    <Tab label="Home " sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}} component={Link} to="/" />
-                                    <Tab label="About" sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}   to="/about" />
-                                    <Tab label="Portfolio " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}  to="/portfolio" />
+                                    <Tab label="Home " sx={{color:"#fff",fontSize:{md:"16px"},mt:{md:"20px",xs:"0px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}} component={Link} to="/" />
+                                    <Tab label="About" sx={{color:"#fff",fontSize:{md:"16px"},mt:{md:"20px",xs:"0px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}   to="/about" />
+                                    <Tab label="Portfolio " sx={{color:"#fff",mt:{md:"20px",xs:"0px"},fontSize:{md:"16px",sm:"10px",lg:"16px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}  to="/portfolio" />
 
-                                    <Tab label="Experience " sx={{color:"#fff",fontSize:{md:"14px",sm:"10px",lg:"16px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}  to="/experience" />
-                                    <Tab label="Contact Us "  sx={{color:"#fff",fontSize:{md:"14px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}} to="/contact" />
+                                    <Tab label="Experience " sx={{color:"#fff",mt:{md:"20px",xs:"0px"},fontSize:{md:"16px",sm:"10px",lg:"16px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}}  to="/experience" />
+                                    <Tab label="Contact Us "  sx={{color:"#fff",mt:{md:"20px",xs:"0px"},fontSize:{md:"16px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"}}} to="/contact" />
                                     {/* <Tab label="Product " sx={{color:"black",fontSize:"20px"}} component={Link} to="/product" /> */}
                                     {/* <Tab label="Cart " sx={{color:"black",fontSize:"20px"}} component={Link} to="/cartsection" /> */}
 
