@@ -31,8 +31,8 @@ const Banner = () => {
  };
  
   return (
-    <Grid sx={{ height: { md: "auto" }}} width={{xs:"100%"}} id="banner" backgroundColor={{md:"#171c28",xs:"#171c28"}}>
-      <Container maxWidth="xxl"  >
+    <Grid sx={{ height: { md: "auto" }}} overflow={{xs:"hidden"}} maxWidth="xxl" width={{xs:"100%"}}  id="banner" backgroundColor={{md:"#171c28",xs:"#171c28"}}>
+      
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "660px", md: "780px" }, }}>
         <Fade bottom duration={1500}>
           <Stack
@@ -46,7 +46,7 @@ const Banner = () => {
               sx={{
                 width: { md: "85%", xs: "100%" },
                 height: { md: "400px", xs: "200px" },
-                mt: { md: "200px" },
+                mt: { md: "120px" },
                 // border: { xs: "1px solid white",md:"1px solid white" }
 
               }}
@@ -78,7 +78,7 @@ const Banner = () => {
               >
                 A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
               </Typography>
-              <Stack sx={{mt:{xs:"20px",md:"20px"},marginLeft:{md:"0px",xs:"72px"}}}  direction={{md:"row",xs:"row"}} spacing={2}>
+              <Stack sx={{mt:{xs:"20px",md:"20px"},marginLeft:{md:"0px",xs:"70px"}}}  direction={{md:"row",xs:"row"}} spacing={2}>
               <a href="https://www.facebook.com/noman.waseem.965" target="_blank"   sx={{color:"white" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><i class="fa-brands fa-facebook-f"></i></a>
               <a href="https://github.com/nomanwaseem111" target="_blank" sx={{color:"white" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><i class="fab fa-github"></i></a>
               <a href="nomanwaseem111@gmail.com" target="_blank" sx={{color:"white" ,cursor:"pointer",display:"inline-block", width:"50px",height:"30px"}}><i class="fa-solid fa-envelope"></i></a>
@@ -87,7 +87,7 @@ const Banner = () => {
               </Stack>
               <Stack direction={{md:"row",xs:"row"}} spacing={4} mt={{md:"42px",xs:"40px"}} marginLeft={{md:"0px",xs:"45px"}}>
               <Button variant="contained" sx={{width:{md:"120px",xs:"100px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},backgroundColor:{md:"#55198b",xs:"#55198b"},height:{md:"45px",xs:"40px"},fontSize:{md:"14px",xs:"12px"},borderRadius:{md:"6px",xs:"6px"}}}>CONTACT</Button>
-              <Button variant="contained"  sx={{width:{md:"160px",xs:"140px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},backgroundColor:{md:"#55198b",xs:"#55198b"},height:{md:"45px",xs:"40px"},fontSize:{md:"14px",xs:"12px"},borderRadius:{md:"6px",xs:"6px"}}}>SEE MY RESUME</Button>
+              <Button variant="contained"  sx={{width:{md:"160px",xs:"130px"},fontFamily:{md:"Eudoxus Sans",xs:"Eudoxus Sans"},backgroundColor:{md:"#55198b",xs:"#55198b"},height:{md:"45px",xs:"40px"},fontSize:{md:"14px",xs:"12px"},borderRadius:{md:"6px",xs:"6px"}}}>SEE MY RESUME</Button>
 
               </Stack>
               
@@ -115,7 +115,7 @@ const Banner = () => {
           </Fade>
         </Stack>
         
-      </Container>
+      
     </Grid>
   )
 }
