@@ -31,8 +31,8 @@ const Banner = () => {
  };
  
   return (
-    <Grid sx={{ height: { md: "auto" }}} id="banner" backgroundColor={{md:"#171c28",xs:"#171c28"}}>
-      <Container maxWidth="xxl" width={{xs:"100%"}} >
+    <Grid sx={{ height: { md: "auto" }}} width={{xs:"100%"}} id="banner" backgroundColor={{md:"#171c28",xs:"#171c28"}}>
+      <Container maxWidth="xxl"  >
         <Stack sx={{ width: { md: "100%", xs: "100%", lg: "100%" }, height: { xs: "660px", md: "780px" }, }}>
         <Fade bottom duration={1500}>
           <Stack
