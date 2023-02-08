@@ -83,7 +83,7 @@ const Banner = () => {
                   color:{md:"#fff",xs:"#fff"},
                   lineHeight:{md:"50px",xs:"30px",sm:"40px"},
                   width: {xs: '90%',md:"800px",sm:"80%"},
-                  marginRight:{md:'100px',xs:'20px',sm:"30px"},
+                  marginRight:{md:'140px',xs:'20px',sm:"30px"},
                   //  border:{md:"1px solid white",xs:"1px solid red",sm:"1px solid green"}
                     
                 }}
